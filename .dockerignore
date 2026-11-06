@@ -1,0 +1,39 @@
+# Segredos e ambiente
+.env
+.env.*
+!.env.example
+
+# Controle de versão
+.git
+.gitignore
+
+# Python
+.venv
+**/__pycache__
+**/*.py[cod]
+**/*.egg-info
+.pytest_cache
+.mypy_cache
+.ruff_cache
+.coverage
+.coverage.*
+htmlcov
+
+# Node / Next.js
+**/node_modules
+frontend/.next
+frontend/out
+frontend/.turbo
+frontend/.vercel
+**/*.tsbuildinfo
+**/.eslintcache
+.pnpm-store
+
+# Temporários e sistema
+*.log
+*.tmp
+*.bak
+*.orig
+*.pid
+.DS_Store
+Thumbs.db
